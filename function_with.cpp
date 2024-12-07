@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
-int roi()
-{
-return 3;
-}
+// int roi()
+// {
+// return 3;
+// }
 int balance (int pwd)
 {
 if(pwd==2003)
@@ -17,5 +17,5 @@ return -1;
 }
 int main ()
 {
-    cout<<balance(2003);
+    cout<<balance(20);
 }
