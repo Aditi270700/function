@@ -15,4 +15,8 @@ class student
 int main (){
     student s(101);
     s.show();
+    student s2(s);
+    s2.show();// in shallow copy object is copy
+    
+
 }
